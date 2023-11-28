@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Playlist</title>
+    <!-- it is connected to two stylesheets -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="Single_Playlist_Screen_Styles.css"
+    />
+    <!-- this is the main stylesheet -->
+    <!-- desktop first approach is used for the same. -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="Secondary_page_responsive.css"
+    />
+    <!-- this is the style sheet with all the media queries -->
+    <!-- this script is just for font awesome fonts -->
+    <script
+      src="https://kit.fontawesome.com/2d9b67a497.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!-- body -->
+
+  <body>
+    <!--  navigation bar -->
+    <nav class="navigation-bar">
+      <!-- this div contains the logo and title os the page -->
+      <div class="title-combo">
+        <div class="website-logo">
+          <img src="media/Logo.png" />
+        </div>
+        <div class="website-name">
+          <h2>
+            <a href="index.html">
+              Shaffy
+            </a>
+          </h2>
+          <h6 style="color: magenta;">
+            <a href="index.html">Music Player</a>
+          </h6>
+        </div>
+      </div>
+      <!-- this div contains animated favourites text -->
+      <div class="favs">
+        <h4>
+          Favourites
+        </h4>
+      </div>
+      <div class="search-bar">
+        <div>
+          <!-- magnifying glass- search icon from fontawesome -->
+          <i class="fas fa-search search-ico"></i>
+        </div>
+        <input type="text" name="search" placeholder="Search" />
+        <div>
+          <!-- mic icon -->
+          <i class="fas fa-microphone mic-ico"></i>
+        </div>
+      </div>
+      <!-- this div contains notification bell -->
+      <div class="notification-bell">
+        <img src="media/bell_icon.png" /> Notifications
+      </div>
+      <!-- this div contains profile picture -->
+      <div class="profile-picture">
+        <img src="media/profile.png" />
+      </div>
+    </nav>
+    <!-- this is the main content part of the page and it is divided into two sections, namely section 1 and section 2-->
+    <!-- I have separated these sections using the aside tag for each section -->
+    <main>
+      <!-- aside section 1 -->
+      <aside class="aside section-1">
+        <!-- this is for the jumbotron -->
+        <div class="jumbotron">
+          <div class="jumbotron-image">
+            <!-- there is nothing in this div because all the images and all are added by css -->
+          </div>
+          <!-- jumbotron details -->
+          <div class="jumbotron-detail">
+            <!-- descriptive part of the jumbotron this will contain name , number of followers and all -->
+            <div class="descriptive-part">
+              <div class="song-name-main">
+                <h1>Save Your Tears</h1>
+              </div>
+              <div class="followers">
+                28m Followers
+              </div>
+              <p class="author">The Weeeknd</p>
+              <!-- short description of the current author -->
+              <p class="desc">
+                The Weeknd is a Canadian pop singer started his music career in
+                2009. Among the worlds best-selling music artists with over 75
+                million records sold, Tesfaye holds several streaming.The Weeknd
+                received numerous nominations in the following year. He was able
+                to brought home several awards, including Best Urban
+                Contemporary Album at Grammy Awards as well as Best Video for
+                "Starboy" at the MTV Europe Music Awards.
+              </p>
+            </div>
+            <!-- action part -->
+            <div class="action-part">
+              <!-- action buttons -->
+              <div class="btns">
+                <button>Play All</button>
+                <button>Follow</button>
+              </div>
+              <p>
+                186 Tracks | 153 Albums
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- this div contains playlist part  -->
+        <div class="playlist-items">
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                01
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd2.jpeg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  Alone Again
+                </h5>
+                <p class="author">
+                  The Weeeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              4:10
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                02
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd2.jpeg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  Too Late
+                </h5>
+                <p class="author">
+                  The Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              3:59
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                03
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd2.jpeg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  Hardest To Love
+                </h5>
+                <p class="author">
+                  The Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              3:31
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                04
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd2.jpeg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  Scarred To Live
+                </h5>
+                <p class="author">
+                  The Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              3:11
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                05
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd3.jpeg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  Heartless
+                </h5>
+                <p class="author">
+                  The Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              3:18
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                06
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd3.jpeg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  Faith
+                </h5>
+                <p class="author">
+                  The Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              4:43
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                07
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd3.jpeg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  In Your Eyes
+                </h5>
+                <p class="author">
+                  The Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              3:57
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                08
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd3.jpeg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  After Hours
+                </h5>
+                <p class="author">
+                  The Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              6:01
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                09
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  Blinding Lights
+                </h5>
+                <p class="author">
+                  Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              3:20
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                10
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  Save Your Tears
+                </h5>
+                <p class="author">
+                  Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              3:35
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                11
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  Snowchild
+                </h5>
+                <p class="author">
+                  Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              4:07
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>
+                12
+              </div>
+              <div>
+                <img src="media/playlist/the-weeknd.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>
+                  Escape From LA
+                </h5>
+                <p class="author">
+                  Weeknd
+                </p>
+              </div>
+            </div>
+            <div class="center">
+              5:55
+            </div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <!-- End of section-1 -->
+
+      <!-- now the second aside section will start from here -->
+      <!-- the page is responsive. please try reducing the width of the page -->
+      <!-- the aside section will collapse and a "more button will be shown to you." -->
+      <!-- clicking on this more button, you will be shown the aside section 2  -->
+      <!-- its position will be absolute at lower resolutions -->
+      <!-- this is the label for that more button -->
+      <label for="more"><i class="fas fa-angle-double-left"></i>More</label>
+      <!-- this is that more button -->
+      <!-- and this is the check box. this will always be hidden -->
+      <!-- check the stylesheet_main.css when the label is clicked, this checkbox will be checked -->
+      <!-- which will invoke the aside section 2 on lower resolutions -->
+      <input type="checkbox" id="more" />
+      <!-- </div> -->
+      <aside class="aside section-2">
+        <!-- similar class will be applicable to both similar artists and recently played -->
+        <div class="similar">
+          <!-- section heading, which also contains the view all button -->
+          <div class="section-heading">
+            <h1>Similar Artists</h1>
+            <div class="view-all-button">
+              View All
+            </div>
+          </div>
+          <!-- list is the container for the contents of similar artists -->
+          <div class="list">
+            <!-- item -->
+            <div class="list-item">
+              <div>
+                <img src="media/popular-artists/annie.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px;">
+                <h5>
+                  Friends
+                </h5>
+                <p class="author-name">
+                  Anne Marie
+                </p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">
+                  3:22
+                </p>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="list-item">
+              <div>
+                <img src="media/popular-artists/The-score.jpeg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px;">
+                <h5>
+                  Higher
+                </h5>
+                <p class="author-name">
+                  The Score
+                </p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">
+                  3:34
+                </p>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="list-item">
+              <div>
+                <img src="media/popular-artists/dan.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px;">
+                <h5>
+                  Beliver
+                </h5>
+                <p class="author-name">
+                  Imagine Dragons
+                </p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">
+                  3:24
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- recently played section -->
+          <div class="similar">
+            <!-- section headings, which also contains the view all button -->
+            <div class="section-heading">
+              <h1>Recently Played</h1>
+              <div class="view-all-button">
+                View All
+              </div>
+            </div>
+            <!-- again list is a container for all the contents of recently played section -->
+            <div class="list">
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>
+                    01
+                  </div>
+                  <div>
+                    <img src="media/playlist/Panja.jpeg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>
+                      Panja Title Song
+                    </h5>
+                    <p>
+                      Panja
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>
+                    02
+                  </div>
+                  <div>
+                    <img src="media/playlist/Brathakali.jpeg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>
+                      Brathakaali
+                    </h5>
+                    <p>
+                      Oosarvelli
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>
+                    03
+                  </div>
+                  <div>
+                    <img src="media/playlist/Nipuu.jpeg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>
+                      Nippu Ra
+                    </h5>
+                    <p>
+                      Kabali
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>
+                    04
+                  </div>
+                  <div>
+                    <img src="media/playlist/Missing-me.jpeg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>
+                      Missing Me
+                    </h5>
+                    <p>
+                      Maahan
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>
+                    05
+                  </div>
+                  <div>
+                    <img src="media/playlist/Quit.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>
+                      Quit Cheyara
+                    </h5>
+                    <p>
+                      Master
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>
+                    06
+                  </div>
+                  <div>
+                    <img src="media/latest-telugu/sita-ramam.jpeg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>
+                      Inthandam
+                    </h5>
+                    <p>
+                      Sita Ramam
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>
+                    07
+                  </div>
+                  <div>
+                    <img src="media/latest-telugu/pushpa.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>
+                      A-bidda
+                    </h5>
+                    <p>
+                      Pushpa
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>
+                    08
+                  </div>
+                  <div>
+                    <img src="media/latest-telugu/vikram.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>
+                      Wasted
+                    </h5>
+                    <p>
+                      Vikram
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>
+                    09
+                  </div>
+                  <div>
+                    <img src="media/latest-telugu/fida.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>
+                      Hey Pillagada
+                    </h5>
+                    <p>
+                      Fidda
+                    </p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- main part of the page is over. -->
+    <!-- this is the footer part. -->
+    <!-- its position will be fixed to the screen bottom. -->
+    <footer>
+      <div class="active-song-description">
+        <!-- song image -->
+        <div id="song-image">
+          <img src="media/songs/blinding.jpg" />
+        </div>
+        <!-- song name and author -->
+        <div class="song-desc">
+          <div>
+            Blinding Lights
+          </div>
+          <div class="author">
+            The Weeknd
+          </div>
+        </div>
+        <!-- heart icon and ban icon -->
+        <div class="heart-and-ban-icon">
+          <span>
+            <i class="far fa-heart"></i>
+          </span>
+          <span>
+            <i class="fas fa-ban"></i>
+          </span>
+        </div>
+      </div>
+      <!-- these are the main player controls -->
+      <div class="player">
+        <div class="controls">
+          <div><i class="fas fa-random"></i></div>
+          <div><i class="fas fa-step-backward"></i></div>
+          <div><i class="fas fa-pause-circle"></i></div>
+          <div><i class="fas fa-step-forward"></i></div>
+          <div><i class="fas fa-redo"></i></div>
+        </div>
+        <!-- this is the slider -->
+        <div id="slider">
+          <!-- current time -->
+          <div class="time">
+            1:39
+          </div>
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="0"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+          <!-- total time -->
+          <div class="time">
+            3:20
+          </div>
+        </div>
+      </div>
+      <!-- other icons including the volume slider and all -->
+      <div class="extras">
+        <div>
+          <i class="fas fa-list-ul"></i>
+        </div>
+        <div>
+          <i class="fas fa-laptop"></i>
+        </div>
+        <div>
+          <i class="fas fa-volume-up"></i>
+        </div>
+        <div class="slidecontainer" style="width: 30%;">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            class="slider"
+            id="myRange"
+            style="margin-top: 0px;"
+          />
+        </div>
+        <div>
+          <i class="fas fa-expand-alt"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
